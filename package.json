@@ -1,0 +1,25 @@
+{
+  "name": "node-server-serie",
+  "version": "0.0.1",
+  "description": "Serveur node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TytiX006/node-server-serie.git"
+  },
+  "keywords": [
+    "Serie"
+  ],
+  "author": "Antoine Belliard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TytiX006/node-server-serie/issues"
+  },
+  "homepage": "https://github.com/TytiX006/node-server-serie",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
