@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/TytiX006/node-server-serie",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "express": "^4.14.0",
+    "forever": "^0.15.2"
   }
 }

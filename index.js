@@ -12,7 +12,13 @@ program
 program
   .command('start')
   .action(function(env, options) {
-  	console.log('stating serveur : %s', env);
+  	console.log('starting serveur : %s', env);
+  });
+
+program
+  .command('stop')
+  .action(function(env, options) {
+    console.log('stoping serveur : %s', env);
   });
 
 program.parse(process.argv);
